@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+body {
+  position: relative;
+}
+h1 {
+  color: rgb(238, 165, 221);
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 40%;
+}
+canvas {
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+}
+
+@media (min-width: 411px) and (max-width: 980px) {
+  .container {
+    top: 47%;
+  }
+}
+
+@media (min-width: 981px) {
+  .container {
+    top: 40%;
+  }
+}
